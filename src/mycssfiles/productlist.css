@@ -1,0 +1,32 @@
+.main{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100px;
+    height: 100px;
+    margin: 10px 100px;
+}   
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
+.sub{
+    background-color: rgb(232, 232, 232);
+    width: 180px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.pic{
+    height: 150px;
+    width: 130px;
+}
